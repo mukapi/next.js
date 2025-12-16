@@ -1,0 +1,12 @@
+/* CONTACT FORM - Radio button checked state */
+
+.contact_form_radio_btn:has(.contact_form_radio_circle.w--redirected-checked) {
+  background-color: #173977;
+  color: white;
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.12), 0 3px 1px 0 rgba(0, 0, 0, 0.04);
+  border: 0.5px solid rgba(0, 0, 0, 0.04);
+}
+
+.contact_form_radio_btn:has(.contact_form_radio_circle.w--redirected-checked) .contact_form_radio_svg {
+  display: block;
+}

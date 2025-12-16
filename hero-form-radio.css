@@ -1,0 +1,7 @@
+/* HERO FORM - Radio button checked state */
+
+.hero_form_radio_btn:has(.w-form-formradioinput.w--redirected-checked) {
+  border: 0.125rem solid #173977;
+  color: #173977;
+  font-weight: 700;
+}
