@@ -1,0 +1,75 @@
+/* HERO FORM - Multi-step styling */
+
+/* Error state for validation */
+.hero_form_item.has-error {
+  animation: shake 0.3s ease;
+}
+
+.hero_form_item.has-error input,
+.hero_form_item.has-error .hero_form_radio_btn {
+  border-color: #e53e3e !important;
+}
+
+/* Error message above field */
+.hero_form_error_message {
+  color: #e53e3e;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  background-color: #fff5f5;
+  border-radius: 0.25rem;
+  border-left: 3px solid #e53e3e;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+
+/* Result display styling */
+.hero_form_result {
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero_form_result h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #173977;
+}
+
+.hero_form_result_price {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #173977;
+  margin: 1.5rem 0;
+}
+
+.hero_form_result p {
+  margin: 0.5rem 0;
+}
+
+.hero_form_result_extras {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #f7f7f7;
+  border-radius: 0.5rem;
+}
+
+.hero_form_result_extras ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0;
+}
+
+.hero_form_result_extras li {
+  padding: 0.25rem 0;
+}
+
+.hero_form_result_note {
+  font-size: 0.875rem;
+  color: #666;
+  margin-top: 1.5rem !important;
+}
