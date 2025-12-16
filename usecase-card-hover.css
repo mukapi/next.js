@@ -1,0 +1,23 @@
+/* USE CASE CARD - Reveal text on hover avec Grid */
+
+.use-case_content {
+  display: grid;
+  grid-template-rows: auto 0fr;
+  transition: grid-template-rows 0.3s ease;
+}
+
+.use-case_text_wrap {
+  overflow: hidden;
+}
+
+.use-case_overlay {
+  transition: opacity 0.3s ease;
+}
+
+.use-case_card:hover .use-case_content {
+  grid-template-rows: auto 1fr;
+}
+
+.use-case_card:hover .use-case_overlay {
+  opacity: 1;
+}
